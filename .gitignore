@@ -205,3 +205,66 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Machine Learning / Data Science specific
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.weights
+*.ckpt
+*.pth
+*.pt
+*.pb
+*.onnx
+
+# Trained models directory
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.pb
+
+# Data files (uncomment if you don't want to track data files)
+# data/*.csv
+# data/*.json
+# data/*.xml
+# data/*.xlsx
+# data/*.xls
+# data/*.parquet
+# data/*.feather
+
+# Experiment tracking
+mlruns/
+.mlflow/
+wandb/
+.neptune/
+tensorboard/
+.tensorboard/
+
+# Plots and visualizations (uncomment if you don't want to track plots)
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.svg
+# *.pdf
+# plots/
+# figures/
+
+# Jupyter Notebook outputs
+*.nbconvert.py
+
+# Model evaluation outputs
+confusion_matrix.png
+feature_importance.png
+roc_curve.png
+learning_curve.png
+
+# Temporary model files
+temp_model.*
+*.tmp.pkl
